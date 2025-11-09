@@ -1,0 +1,59 @@
+{
+  "timestamp": "2024-01-15T11:15:00.000Z",
+  "batch_id": 2001,
+  "alloy_type": "aluminum",
+  "spectrometer": {
+    "Al": 89.5,
+    "Cu": 4.2,
+    "Si": 2.1,
+    "Mg": 1.8,
+    "Zn": 1.5,
+    "Fe": 0.4,
+    "Mn": 0.5
+  },
+  "furnace_temp": {
+    "zone1": 1220,
+    "zone2": 1240,
+    "zone3": 1230
+  },
+  "dosing": {
+    "Al_added": 0.0,
+    "Cu_added": 0.0,
+    "Si_added": 0.0,
+    "Mg_added": 0.0,
+    "Zn_added": 0.0
+  },
+  "stirrer": {
+    "rpm": 140,
+    "torque": 45,
+    "time_min": 8.0
+  },
+  "load_cell": {
+    "batch_weight_kg": 1500
+  },
+  "gas_flow": {
+    "O2_percent": 0.12,
+    "flow_L_per_min": 4.5
+  },
+  "cooling": {
+    "cool_rate_C_per_min": 12.0
+  },
+  "target_composition": {
+    "Al": 88.0,
+    "Cu": 5.0,
+    "Si": 2.5,
+    "Mg": 2.2,
+    "Zn": 1.8,
+    "Fe": 0.4,
+    "Mn": 0.5
+  },
+  "historical_data": {
+    "previous_iterations": 1,
+    "average_energy_consumption_kwh": 420,
+    "last_batch_additions": {
+      "Al_added": 2.5,
+      "Cu_added": 0.8,
+      "Mg_added": 0.3
+    }
+  }
+}

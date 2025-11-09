@@ -1,0 +1,502 @@
+{
+  "training_timestamp": "2025-09-23T20:03:23.906229",
+  "models_trained": [
+    "steel",
+    "aluminum",
+    "copper",
+    "titanium",
+    "nickel",
+    "magnesium"
+  ],
+  "model_info": {
+    "steel": {
+      "alloy_system": {
+        "base_elements": [
+          "Fe"
+        ],
+        "alloying_elements": [
+          "C",
+          "Si",
+          "Mn",
+          "P",
+          "S",
+          "Cr",
+          "Ni",
+          "Mo",
+          "Cu",
+          "Al",
+          "V",
+          "W",
+          "Co"
+        ],
+        "addable_elements": [
+          "Fe",
+          "C",
+          "Si",
+          "Mn",
+          "Cr",
+          "Ni",
+          "Mo",
+          "Cu",
+          "Al"
+        ],
+        "temp_range": [
+          1400,
+          1600
+        ],
+        "density": 7.85
+      },
+      "elements": [
+        "Fe",
+        "C",
+        "Si",
+        "Mn",
+        "P",
+        "S",
+        "Cr",
+        "Ni",
+        "Mo",
+        "Cu",
+        "Al",
+        "V",
+        "W",
+        "Co"
+      ],
+      "addable_elements": [
+        "Fe",
+        "C",
+        "Si",
+        "Mn",
+        "Cr",
+        "Ni",
+        "Mo",
+        "Cu",
+        "Al"
+      ],
+      "feature_count": 78,
+      "is_trained": true
+    },
+    "aluminum": {
+      "alloy_system": {
+        "base_elements": [
+          "Al"
+        ],
+        "alloying_elements": [
+          "Cu",
+          "Si",
+          "Mg",
+          "Zn",
+          "Fe",
+          "Mn",
+          "Cr",
+          "Ti",
+          "Li"
+        ],
+        "addable_elements": [
+          "Al",
+          "Cu",
+          "Si",
+          "Mg",
+          "Zn"
+        ],
+        "temp_range": [
+          1200,
+          1300
+        ],
+        "density": 2.7
+      },
+      "elements": [
+        "Al",
+        "Cu",
+        "Si",
+        "Mg",
+        "Zn",
+        "Fe",
+        "Mn",
+        "Cr",
+        "Ti",
+        "Li"
+      ],
+      "addable_elements": [
+        "Al",
+        "Cu",
+        "Si",
+        "Mg",
+        "Zn"
+      ],
+      "feature_count": 58,
+      "is_trained": true
+    },
+    "copper": {
+      "alloy_system": {
+        "base_elements": [
+          "Cu"
+        ],
+        "alloying_elements": [
+          "Zn",
+          "Sn",
+          "Pb",
+          "Ni",
+          "Al",
+          "Fe",
+          "Si",
+          "P",
+          "Be"
+        ],
+        "addable_elements": [
+          "Cu",
+          "Zn",
+          "Sn",
+          "Ni",
+          "Al"
+        ],
+        "temp_range": [
+          1000,
+          1200
+        ],
+        "density": 8.96
+      },
+      "elements": [
+        "Cu",
+        "Zn",
+        "Sn",
+        "Pb",
+        "Ni",
+        "Al",
+        "Fe",
+        "Si",
+        "P",
+        "Be"
+      ],
+      "addable_elements": [
+        "Cu",
+        "Zn",
+        "Sn",
+        "Ni",
+        "Al"
+      ],
+      "feature_count": 58,
+      "is_trained": true
+    },
+    "titanium": {
+      "alloy_system": {
+        "base_elements": [
+          "Ti"
+        ],
+        "alloying_elements": [
+          "Al",
+          "V",
+          "Fe",
+          "Mo",
+          "Cr",
+          "Sn",
+          "Zr",
+          "Nb"
+        ],
+        "addable_elements": [
+          "Ti",
+          "Al",
+          "V",
+          "Fe"
+        ],
+        "temp_range": [
+          1600,
+          1800
+        ],
+        "density": 4.51
+      },
+      "elements": [
+        "Ti",
+        "Al",
+        "V",
+        "Fe",
+        "Mo",
+        "Cr",
+        "Sn",
+        "Zr",
+        "Nb"
+      ],
+      "addable_elements": [
+        "Ti",
+        "Al",
+        "V",
+        "Fe"
+      ],
+      "feature_count": 53,
+      "is_trained": true
+    },
+    "nickel": {
+      "alloy_system": {
+        "base_elements": [
+          "Ni"
+        ],
+        "alloying_elements": [
+          "Cr",
+          "Fe",
+          "Mo",
+          "Co",
+          "Al",
+          "Ti",
+          "W",
+          "Nb"
+        ],
+        "addable_elements": [
+          "Ni",
+          "Cr",
+          "Fe",
+          "Mo"
+        ],
+        "temp_range": [
+          1400,
+          1600
+        ],
+        "density": 8.9
+      },
+      "elements": [
+        "Ni",
+        "Cr",
+        "Fe",
+        "Mo",
+        "Co",
+        "Al",
+        "Ti",
+        "W",
+        "Nb"
+      ],
+      "addable_elements": [
+        "Ni",
+        "Cr",
+        "Fe",
+        "Mo"
+      ],
+      "feature_count": 53,
+      "is_trained": true
+    },
+    "magnesium": {
+      "alloy_system": {
+        "base_elements": [
+          "Mg"
+        ],
+        "alloying_elements": [
+          "Al",
+          "Zn",
+          "Mn",
+          "Si",
+          "Ca",
+          "Zr",
+          "Y",
+          "Nd"
+        ],
+        "addable_elements": [
+          "Mg",
+          "Al",
+          "Zn",
+          "Mn"
+        ],
+        "temp_range": [
+          600,
+          800
+        ],
+        "density": 1.74
+      },
+      "elements": [
+        "Mg",
+        "Al",
+        "Zn",
+        "Mn",
+        "Si",
+        "Ca",
+        "Zr",
+        "Y",
+        "Nd"
+      ],
+      "addable_elements": [
+        "Mg",
+        "Al",
+        "Zn",
+        "Mn"
+      ],
+      "feature_count": 53,
+      "is_trained": true
+    }
+  },
+  "test_results": {
+    "steel": {
+      "batch_id": 1001,
+      "timestamp": "2025-09-23T20:03:22.374864Z",
+      "alloy_type": "steel",
+      "predicted_additions": {
+        "Fe_add_kg": 0,
+        "C_add_kg": 0.5,
+        "Si_add_kg": 1.7,
+        "Mn_add_kg": 1.8,
+        "Cr_add_kg": 5.0,
+        "Ni_add_kg": 5.0,
+        "Mo_add_kg": 1.7,
+        "Cu_add_kg": 0,
+        "Al_add_kg": 0
+      },
+      "recommended_stirrer": {
+        "rpm": 165,
+        "time_min": 11.0
+      },
+      "recommended_furnace_temp": {
+        "zone1": 1506,
+        "zone2": 1514,
+        "zone3": 1511
+      },
+      "iterations_saved": 3,
+      "estimated_energy_saving_percent": 9.0,
+      "composition_accuracy_percent": 97.5,
+      "predicted_properties": {
+        "hardness": 264.2,
+        "tensile_strength": 614.9,
+        "toughness": 95.4
+      },
+      "reason_for_deviation": {
+        "Fe": "Current Fe % is higher than target due to over-addition in previous cycle",
+        "C": "C is at target; no significant deviation",
+        "Si": "Si is at target; no significant deviation",
+        "Mn": "Current Mn % is lower than target due to insufficient addition in previous iteration",
+        "Cr": "Current Cr % is lower than target due to insufficient addition in previous iteration",
+        "Ni": "Current Ni % is lower than target due to insufficient addition in previous iteration",
+        "Mo": "Current Mo % is lower than target due to insufficient addition in previous iteration",
+        "Cu": "Cu is at target; no significant deviation",
+        "Al": "Al is at target; no significant deviation"
+      },
+      "impact_analysis": {
+        "mechanical_properties": "Hardness and tensile strength may be affected if composition deviations not corrected",
+        "corrosion_resistance": "Corrosion resistance may be compromised, especially if Cr content is low",
+        "production_delay": "Without correction, would require 4 extra heat treatment cycles"
+      },
+      "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for steel alloy, avoiding trial-and-error additions. Normally 4 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+      "notes": "Add 0.5kg C. Add 1.7kg Si. Add 1.8kg Mn. Add 5.0kg Cr. Add 5.0kg Ni. Add 1.7kg Mo. Optimize furnace zones and stirring for steel alloy. Expected composition matches target with high accuracy."
+    },
+    "aluminum": {
+      "batch_id": 2001,
+      "timestamp": "2025-09-23T20:03:22.433908Z",
+      "alloy_type": "aluminum",
+      "predicted_additions": {
+        "Al_add_kg": 0,
+        "Cu_add_kg": 3.0,
+        "Si_add_kg": 2.0,
+        "Mg_add_kg": 1.5,
+        "Zn_add_kg": 3.0
+      },
+      "recommended_stirrer": {
+        "rpm": 149,
+        "time_min": 9.0
+      },
+      "recommended_furnace_temp": {
+        "zone1": 1260,
+        "zone2": 1268,
+        "zone3": 1265
+      },
+      "iterations_saved": 3,
+      "estimated_energy_saving_percent": 9.6,
+      "composition_accuracy_percent": 97.7,
+      "predicted_properties": {
+        "hardness": 139.6,
+        "tensile_strength": 449.1,
+        "toughness": 113.0
+      },
+      "reason_for_deviation": {
+        "Al": "Current Al % is higher than target due to over-addition in previous cycle",
+        "Cu": "Current Cu % is lower than target due to insufficient addition in previous iteration",
+        "Si": "Current Si % is lower than target due to insufficient addition in previous iteration",
+        "Mg": "Current Mg % is lower than target due to insufficient addition in previous iteration",
+        "Zn": "Current Zn % is lower than target due to insufficient addition in previous iteration"
+      },
+      "impact_analysis": {
+        "mechanical_properties": "Strength and formability may be affected if Cu/Si content not optimized",
+        "corrosion_resistance": "Corrosion resistance maintained for aluminum alloy",
+        "production_delay": "Without correction, would require 4 extra solution treatment cycles"
+      },
+      "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for aluminum alloy, avoiding trial-and-error additions. Normally 4 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+      "notes": "Add 3.0kg Cu. Add 2.0kg Si. Add 1.5kg Mg. Add 3.0kg Zn. Optimize furnace zones and stirring for aluminum alloy. Expected composition matches target with high accuracy."
+    },
+    "copper": {
+      "batch_id": 3001,
+      "timestamp": "2025-09-23T20:03:22.513362Z",
+      "alloy_type": "copper",
+      "predicted_additions": {
+        "Cu_add_kg": 0,
+        "Zn_add_kg": 4.9,
+        "Sn_add_kg": 3.0,
+        "Ni_add_kg": 4.0,
+        "Al_add_kg": 0
+      },
+      "recommended_stirrer": {
+        "rpm": 155,
+        "time_min": 10.0
+      },
+      "recommended_furnace_temp": {
+        "zone1": 1135,
+        "zone2": 1143,
+        "zone3": 1140
+      },
+      "iterations_saved": 2,
+      "estimated_energy_saving_percent": 8.1,
+      "composition_accuracy_percent": 98.0,
+      "predicted_properties": {
+        "hardness": 101.5,
+        "tensile_strength": 293.6,
+        "toughness": 60.2
+      },
+      "reason_for_deviation": {
+        "Cu": "Current Cu % is higher than target due to over-addition in previous cycle",
+        "Zn": "Current Zn % is lower than target due to insufficient addition in previous iteration",
+        "Sn": "Current Sn % is lower than target due to insufficient addition in previous iteration",
+        "Ni": "Current Ni % is lower than target due to insufficient addition in previous iteration",
+        "Al": "Al is at target; no significant deviation"
+      },
+      "impact_analysis": {},
+      "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for copper alloy, avoiding trial-and-error additions. Normally 3 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+      "notes": "Add 4.9kg Zn. Add 3.0kg Sn. Add 4.0kg Ni. Optimize furnace zones and stirring for copper alloy. Expected composition matches target with high accuracy."
+    }
+  },
+  "validation_results": {
+    "steel": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 78
+    },
+    "aluminum": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 58
+    },
+    "copper": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 58
+    },
+    "titanium": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 53
+    },
+    "nickel": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 53
+    },
+    "magnesium": {
+      "valid_additions": "True",
+      "valid_temperatures": "True",
+      "valid_accuracy": "True",
+      "sample_count": 100,
+      "feature_count": 53
+    }
+  }
+}

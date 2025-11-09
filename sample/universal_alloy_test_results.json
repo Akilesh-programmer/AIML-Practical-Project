@@ -1,0 +1,134 @@
+{
+  "steel": {
+    "batch_id": 1001,
+    "timestamp": "2025-09-23T21:01:51.428205Z",
+    "alloy_type": "steel",
+    "predicted_additions": {
+      "Fe_add_kg": 0,
+      "C_add_kg": 0.5,
+      "Si_add_kg": 1.7,
+      "Mn_add_kg": 1.8,
+      "Cr_add_kg": 5.0,
+      "Ni_add_kg": 5.0,
+      "Mo_add_kg": 1.8,
+      "Cu_add_kg": 0,
+      "Al_add_kg": 0
+    },
+    "recommended_stirrer": {
+      "rpm": 165,
+      "time_min": 11.0
+    },
+    "recommended_furnace_temp": {
+      "zone1": 1506,
+      "zone2": 1514,
+      "zone3": 1511
+    },
+    "iterations_saved": 3,
+    "estimated_energy_saving_percent": 9.0,
+    "composition_accuracy_percent": 97.5,
+    "predicted_properties": {
+      "hardness": 264.3,
+      "tensile_strength": 614.7,
+      "toughness": 95.5
+    },
+    "reason_for_deviation": {
+      "Fe": "Current Fe % is higher than target due to over-addition in previous cycle",
+      "C": "C is at target; no significant deviation",
+      "Si": "Si is at target; no significant deviation",
+      "Mn": "Current Mn % is lower than target due to insufficient addition in previous iteration",
+      "Cr": "Current Cr % is lower than target due to insufficient addition in previous iteration",
+      "Ni": "Current Ni % is lower than target due to insufficient addition in previous iteration",
+      "Mo": "Current Mo % is lower than target due to insufficient addition in previous iteration",
+      "Cu": "Cu is at target; no significant deviation",
+      "Al": "Al is at target; no significant deviation"
+    },
+    "impact_analysis": {
+      "mechanical_properties": "Hardness and tensile strength may be affected if composition deviations not corrected",
+      "corrosion_resistance": "Corrosion resistance may be compromised, especially if Cr content is low",
+      "production_delay": "Without correction, would require 4 extra heat treatment cycles"
+    },
+    "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for steel alloy, avoiding trial-and-error additions. Normally 4 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+    "notes": "Add 0.5kg C. Add 1.7kg Si. Add 1.8kg Mn. Add 5.0kg Cr. Add 5.0kg Ni. Add 1.8kg Mo. Optimize furnace zones and stirring for steel alloy. Expected composition matches target with high accuracy."
+  },
+  "aluminum": {
+    "batch_id": 2001,
+    "timestamp": "2025-09-23T21:01:52.474599Z",
+    "alloy_type": "aluminum",
+    "predicted_additions": {
+      "Al_add_kg": 0,
+      "Cu_add_kg": 3.0,
+      "Si_add_kg": 2.0,
+      "Mg_add_kg": 1.5,
+      "Zn_add_kg": 3.0
+    },
+    "recommended_stirrer": {
+      "rpm": 149,
+      "time_min": 9.0
+    },
+    "recommended_furnace_temp": {
+      "zone1": 1260,
+      "zone2": 1268,
+      "zone3": 1265
+    },
+    "iterations_saved": 3,
+    "estimated_energy_saving_percent": 9.7,
+    "composition_accuracy_percent": 97.7,
+    "predicted_properties": {
+      "hardness": 139.9,
+      "tensile_strength": 449.1,
+      "toughness": 113.0
+    },
+    "reason_for_deviation": {
+      "Al": "Current Al % is higher than target due to over-addition in previous cycle",
+      "Cu": "Current Cu % is lower than target due to insufficient addition in previous iteration",
+      "Si": "Current Si % is lower than target due to insufficient addition in previous iteration",
+      "Mg": "Current Mg % is lower than target due to insufficient addition in previous iteration",
+      "Zn": "Current Zn % is lower than target due to insufficient addition in previous iteration"
+    },
+    "impact_analysis": {
+      "mechanical_properties": "Strength and formability may be affected if Cu/Si content not optimized",
+      "corrosion_resistance": "Corrosion resistance maintained for aluminum alloy",
+      "production_delay": "Without correction, would require 4 extra solution treatment cycles"
+    },
+    "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for aluminum alloy, avoiding trial-and-error additions. Normally 4 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+    "notes": "Add 3.0kg Cu. Add 2.0kg Si. Add 1.5kg Mg. Add 3.0kg Zn. Optimize furnace zones and stirring for aluminum alloy. Expected composition matches target with high accuracy."
+  },
+  "auto_detection": {
+    "batch_id": 5001,
+    "timestamp": "2025-09-23T21:01:53.152722Z",
+    "alloy_type": "nickel",
+    "predicted_additions": {
+      "Ni_add_kg": 0,
+      "Cr_add_kg": 0,
+      "Fe_add_kg": 0,
+      "Mo_add_kg": 0
+    },
+    "recommended_stirrer": {
+      "rpm": 155,
+      "time_min": 10.0
+    },
+    "recommended_furnace_temp": {
+      "zone1": 1495,
+      "zone2": 1503,
+      "zone3": 1500
+    },
+    "iterations_saved": 0,
+    "estimated_energy_saving_percent": 0.4,
+    "composition_accuracy_percent": 100,
+    "predicted_properties": {
+      "hardness": 102.8,
+      "tensile_strength": 300.9,
+      "toughness": 60.0
+    },
+    "reason_for_deviation": {
+      "Ni": "Current Ni % is higher than target due to over-addition in previous cycle",
+      "Cr": "Current Cr % is lower than target due to insufficient addition in previous iteration",
+      "Fe": "Current Fe % is lower than target due to insufficient addition in previous iteration",
+      "Mo": "Current Mo % is lower than target due to insufficient addition in previous iteration"
+    },
+    "impact_analysis": {},
+    "how_iterations_saved": "ML predicts exact metal amounts and optimized stirring/temperature for nickel alloy, avoiding trial-and-error additions. Normally 1 extra iterations would be needed, ML reduces to 1 actual addition cycle.",
+    "notes": "No metal additions required for nickel alloy. Optimize process parameters only."
+  },
+  "test_timestamp": "2025-09-23T21:01:53.199939"
+}

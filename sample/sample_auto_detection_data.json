@@ -1,0 +1,36 @@
+{
+  "timestamp": "2024-01-15T12:00:00.000Z",
+  "batch_id": 5001,
+  "alloy_type": "auto",
+  "spectrometer": {
+    "Ni": 72.0,
+    "Cr": 15.0,
+    "Fe": 8.0,
+    "Mo": 3.5,
+    "Co": 1.5
+  },
+  "furnace_temp": {
+    "zone1": 1480,
+    "zone2": 1500,
+    "zone3": 1490
+  },
+  "stirrer": {
+    "rpm": 155,
+    "torque": 60,
+    "time_min": 11.0
+  },
+  "load_cell": {
+    "batch_weight_kg": 1000
+  },
+  "target_composition": {
+    "Ni": 70.0,
+    "Cr": 16.0,
+    "Fe": 9.0,
+    "Mo": 4.0,
+    "Co": 1.0
+  },
+  "historical_data": {
+    "previous_iterations": 3,
+    "average_energy_consumption_kwh": 680
+  }
+}
